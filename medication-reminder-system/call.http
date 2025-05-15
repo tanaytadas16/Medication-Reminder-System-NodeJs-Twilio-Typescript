@@ -1,0 +1,24 @@
+### call user
+
+POST https://de26-2601-8c-4302-6370-ec64-c6ad-b30d-dc9a.ngrok-free.app/api/calls
+Content-Type: application/json
+
+{
+  "phoneNumber": "5516896959"
+}
+
+###
+POST https://f2b5-2600-4041-44b6-fb00-3433-f0b4-37a4-8ee0.ngrok-free.app/webhooks/twilio/call-status
+Content-Type: application/json
+
+{
+  "key": "Tanay"
+}
+
+###
+POST https://api.twilio.com/2010-04-01/Accounts/ACa5bb6c6abe8154c9ac57fdf0647f497a/Calls
+
+###
+GET  https://api.twilio.com/2010-04-01/Accounts/ACc0f241923704caaa806728b30e8d7532/Recordings/RE7482185abb4045ef7d2c36bbda473d7d.mp3
+
+###
